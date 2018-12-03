@@ -16,7 +16,6 @@ describe AttributeAsserter do
     instance_double(
       ServiceProvider,
       issuer: 'http://localhost:3000',
-      attribute_bundle: %w[email phone first_name last_name ssn],
       metadata: {}
     )
   end
